@@ -63,7 +63,7 @@ Below is a step-by-step example demonstrating how to use the framework:
 from mapyreduce import ChainReducer, Integer
 
 chain_reducer = ChainReducer() \
-    .add_data(([2, 5, 7, 9],)) \
+    .add_data(([2, 5, 7, 9],)) \ # Please note that data must be packed in a tuple.
     .add_mapper(Integer.FromInt) \
     .add_mapper(Integer.Square) \
     .set_reducer(Integer.ToList)

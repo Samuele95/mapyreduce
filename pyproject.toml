@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mapyreduce"
+version = "0.1.0"
+description = "Lightweight and extensible library to execute MapReduce-like jobs in Python"
+authors = ["Samuele Stronati <samuele95.github.io>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.4"
+multiprocess = "^0.70.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -12,6 +12,11 @@
 - **Multiprocessing Support**: Leverages multi-core processors to perform map operations in parallel.
 - **Builder Pattern for Chain Construction**: Simplifies the creation of complex workflows using a fluent API.
 
+## Install
+Install using
+
+`pip install mapyreduce`
+
 ## Source Code Structure
 
 ### ChainReducer

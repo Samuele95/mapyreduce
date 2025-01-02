@@ -19,6 +19,7 @@
 The `ChainReducer` class is the core component of the framework. It manages the flow of data through a sequence of mappers and applies a final reducer to consolidate results.
 
 #### Key Methods
+- `add_data(data_tuple)`: Passes the given data to the ChainReducer. **It must be a tuple, since they will be arguments to the first Mapper instance call**.
 - `add_mapper(map_function)`: Appends a mapper to the chain.
 - `set_reducer(reducer)`: Sets the final reducer.
 - `run()`: Executes the entire chain of mappers and reducers.
